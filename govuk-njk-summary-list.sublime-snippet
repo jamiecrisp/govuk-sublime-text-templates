@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/summary-list/macro.njk" import govukSummaryList %}
+
+{{ govukSummaryList({
+	rows: [
+		{
+			key: {
+				text: "${1:Name}"
+			},
+			value: {
+				text: "${2:Sarah Philips}"
+			},
+			actions: {
+				items: [
+					{
+						href: "${3:#}",
+						text: "Change",
+						visuallyHiddenText: "${1:name}"
+					}
+				]
+			}
+		}
+	]
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-summary-list</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Summary List (Nunjucks)</description>
+</snippet>

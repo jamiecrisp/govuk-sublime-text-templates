@@ -1,0 +1,29 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/radios/macro.njk" import govukRadios %}
+
+{{ govukRadios({
+	name: "${1:options}",
+	fieldset: {
+		legend: {
+			text: "${2:Where do you live?}",
+			isPageHeading: true,
+			classes: "govuk-fieldset__legend--l"
+		}
+	},
+	items: [
+		{
+			value: "${3:value-1}",
+			text: "${4:Option 1}"
+		},
+		{
+			value: "${5:value-2}",
+			text: "${6:Option 2}"
+		}
+	]
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-radios</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Radios (Nunjucks)</description>
+</snippet>

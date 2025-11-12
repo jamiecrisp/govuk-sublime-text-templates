@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/phase-banner/macro.njk" import govukPhaseBanner %}
+
+{{ govukPhaseBanner({
+	tag: {
+		text: "${1:Alpha}"
+	},
+	html: '${2:This is a new service. Help us improve it and} <a class="govuk-link" href="${3:#}">${4:give your feedback by email}</a>.'
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-phase-banner</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Phase Banner (Nunjucks)</description>
+</snippet>

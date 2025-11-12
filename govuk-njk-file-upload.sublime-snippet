@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/file-upload/macro.njk" import govukFileUpload %}
+
+{{ govukFileUpload({
+	id: "${1:file-upload}",
+	name: "${2:fileUpload}",
+	label: {
+		text: "${3:Upload a file}"
+	}
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-file-upload</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK File Upload (Nunjucks)</description>
+</snippet>

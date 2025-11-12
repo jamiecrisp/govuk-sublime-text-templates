@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/tag/macro.njk" import govukTag %}
+
+{{ govukTag({
+	text: "${1:Completed}"
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-tag</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Tag (Nunjucks)</description>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/input/macro.njk" import govukInput %}
+
+{{ govukInput({
+	label: {
+		text: "${1:What is the name of the event?}",
+		classes: "govuk-label--l",
+		isPageHeading: true
+	},
+	id: "${2:event-name}",
+	name: "${3:eventName}"
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-input</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Text Input (Nunjucks)</description>
+</snippet>

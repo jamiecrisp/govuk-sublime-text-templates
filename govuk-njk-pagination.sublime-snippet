@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/pagination/macro.njk" import govukPagination %}
+
+{{ govukPagination({
+	previous: {
+		href: "${1:#}"
+	},
+	next: {
+		href: "${2:#}"
+	},
+	items: [
+		{
+			number: 1,
+			href: "${3:#}"
+		},
+		{
+			number: 2,
+			current: true,
+			href: "${4:#}"
+		},
+		{
+			number: 3,
+			href: "${5:#}"
+		}
+	]
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-pagination</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Pagination (Nunjucks)</description>
+</snippet>

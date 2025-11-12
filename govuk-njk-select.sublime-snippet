@@ -1,0 +1,27 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/select/macro.njk" import govukSelect %}
+
+{{ govukSelect({
+	id: "${1:sort}",
+	name: "${2:sort}",
+	label: {
+		text: "${3:Sort by}"
+	},
+	items: [
+		{
+			value: "${4:value-1}",
+			text: "${5:Option 1}"
+		},
+		{
+			value: "${6:value-2}",
+			text: "${7:Option 2}",
+			selected: true
+		}
+	]
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-select</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Select (Nunjucks)</description>
+</snippet>

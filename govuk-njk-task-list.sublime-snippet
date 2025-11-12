@@ -1,0 +1,35 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/task-list/macro.njk" import govukTaskList %}
+
+{{ govukTaskList({
+	idPrefix: "${1:task-list}",
+	items: [
+		{
+			title: {
+				text: "${2:Task name}"
+			},
+			href: "${3:#}",
+			status: {
+				text: "${4:Completed}"
+			}
+		},
+		{
+			title: {
+				text: "${5:Another task}"
+			},
+			href: "${6:#}",
+			status: {
+				tag: {
+					text: "${7:Incomplete}",
+					classes: "govuk-tag--blue"
+				}
+			}
+		}
+	]
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-task-list</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Task List (Nunjucks)</description>
+</snippet>

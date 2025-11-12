@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/textarea/macro.njk" import govukTextarea %}
+
+{{ govukTextarea({
+	name: "${1:moreDetail}",
+	id: "${2:more-detail}",
+	label: {
+		text: "${3:Can you provide more detail?}",
+		classes: "govuk-label--l",
+		isPageHeading: true
+	},
+	hint: {
+		text: "${4:Do not include personal or financial information}"
+	}
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-textarea</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Textarea (Nunjucks)</description>
+</snippet>
