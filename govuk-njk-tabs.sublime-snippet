@@ -29,7 +29,7 @@ ${6}
 	]
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-tabs</tabTrigger>
+	<tabTrigger>gds-njk-tabs</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Tabs (Nunjucks)</description>
 </snippet>

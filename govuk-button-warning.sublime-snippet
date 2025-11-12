@@ -4,7 +4,7 @@
 	${2:Delete account}
 </button>
 ]]></content>
-	<tabTrigger>govuk-button-warning</tabTrigger>
+	<tabTrigger>gds-button-warning</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Warning button</description>
 </snippet>

@@ -24,7 +24,7 @@
 	</fieldset>
 </div>
 ]]></content>
-	<tabTrigger>govuk-radios</tabTrigger>
+	<tabTrigger>gds-radios</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Radios component</description>
 </snippet>

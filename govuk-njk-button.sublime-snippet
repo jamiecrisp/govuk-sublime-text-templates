@@ -4,7 +4,7 @@
 	text: "${1:Save and continue}"
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-button</tabTrigger>
+	<tabTrigger>gds-njk-button</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Button (Nunjucks)</description>
 </snippet>

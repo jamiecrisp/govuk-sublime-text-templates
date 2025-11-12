@@ -9,7 +9,7 @@
 	</button>
 </div>
 ]]></content>
-	<tabTrigger>govuk-button-group</tabTrigger>
+	<tabTrigger>gds-button-group</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Button group</description>
 </snippet>

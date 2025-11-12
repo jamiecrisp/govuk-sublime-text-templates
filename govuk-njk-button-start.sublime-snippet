@@ -6,7 +6,7 @@
 	isStartButton: true
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-button-start</tabTrigger>
+	<tabTrigger>gds-njk-button-start</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Start Button (Nunjucks)</description>
 </snippet>

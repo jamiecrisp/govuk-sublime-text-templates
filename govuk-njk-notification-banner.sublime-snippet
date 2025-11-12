@@ -11,7 +11,7 @@
 	html: html
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-notification-banner</tabTrigger>
+	<tabTrigger>gds-njk-notification-banner</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Notification Banner (Nunjucks)</description>
 </snippet>

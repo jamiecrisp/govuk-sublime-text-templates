@@ -24,7 +24,7 @@
 	]
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-pagination</tabTrigger>
+	<tabTrigger>gds-njk-pagination</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Pagination (Nunjucks)</description>
 </snippet>

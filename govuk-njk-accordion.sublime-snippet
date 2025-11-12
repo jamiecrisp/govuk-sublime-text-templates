@@ -14,7 +14,7 @@
 	]
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-accordion</tabTrigger>
+	<tabTrigger>gds-njk-accordion</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Accordion (Nunjucks)</description>
 </snippet>

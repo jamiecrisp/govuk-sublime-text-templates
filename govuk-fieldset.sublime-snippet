@@ -9,7 +9,7 @@
 	${2}
 </fieldset>
 ]]></content>
-	<tabTrigger>govuk-fieldset</tabTrigger>
+	<tabTrigger>gds-fieldset</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Fieldset component</description>
 </snippet>

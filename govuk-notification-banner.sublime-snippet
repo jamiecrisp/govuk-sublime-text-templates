@@ -14,7 +14,7 @@
 	</div>
 </div>
 ]]></content>
-	<tabTrigger>govuk-notification-banner</tabTrigger>
+	<tabTrigger>gds-notification-banner</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Notification banner component</description>
 </snippet>

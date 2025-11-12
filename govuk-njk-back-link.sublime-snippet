@@ -5,7 +5,7 @@
 	href: "${2:#}"
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-back-link</tabTrigger>
+	<tabTrigger>gds-njk-back-link</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Back Link (Nunjucks)</description>
 </snippet>

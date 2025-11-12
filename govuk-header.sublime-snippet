@@ -22,7 +22,7 @@
 	</div>
 </header>
 ]]></content>
-	<tabTrigger>govuk-header</tabTrigger>
+	<tabTrigger>gds-header</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Header component</description>
 </snippet>

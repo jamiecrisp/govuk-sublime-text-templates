@@ -15,7 +15,7 @@
 	}
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-date-input</tabTrigger>
+	<tabTrigger>gds-njk-date-input</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Date Input (Nunjucks)</description>
 </snippet>

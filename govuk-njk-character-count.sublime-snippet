@@ -14,7 +14,7 @@
 	}
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-character-count</tabTrigger>
+	<tabTrigger>gds-njk-character-count</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Character Count (Nunjucks)</description>
 </snippet>

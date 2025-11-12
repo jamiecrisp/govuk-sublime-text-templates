@@ -11,7 +11,7 @@
 	</select>
 </div>
 ]]></content>
-	<tabTrigger>govuk-select</tabTrigger>
+	<tabTrigger>gds-select</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Select component</description>
 </snippet>

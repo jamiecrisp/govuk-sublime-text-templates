@@ -25,7 +25,7 @@
 	</div>
 </dl>
 ]]></content>
-	<tabTrigger>govuk-summary-list</tabTrigger>
+	<tabTrigger>gds-summary-list</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Summary list component</description>
 </snippet>

@@ -11,7 +11,7 @@
 	</p>
 </div>
 ]]></content>
-	<tabTrigger>govuk-phase-banner</tabTrigger>
+	<tabTrigger>gds-phase-banner</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Phase banner component</description>
 </snippet>

@@ -12,7 +12,7 @@
 	<textarea class="govuk-textarea" id="${1:more-detail}" name="${4:moreDetail}" rows="5" aria-describedby="${1:more-detail}-hint"></textarea>
 </div>
 ]]></content>
-	<tabTrigger>govuk-textarea</tabTrigger>
+	<tabTrigger>gds-textarea</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Textarea component</description>
 </snippet>

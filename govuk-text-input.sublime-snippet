@@ -9,7 +9,7 @@
 	<input class="govuk-input" id="${1:input-id}" name="${3:inputName}" type="text">
 </div>
 ]]></content>
-	<tabTrigger>govuk-text-input</tabTrigger>
+	<tabTrigger>gds-text-input</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Text input component</description>
 </snippet>

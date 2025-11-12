@@ -17,7 +17,7 @@
 	]
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-breadcrumbs</tabTrigger>
+	<tabTrigger>gds-njk-breadcrumbs</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Breadcrumbs (Nunjucks)</description>
 </snippet>

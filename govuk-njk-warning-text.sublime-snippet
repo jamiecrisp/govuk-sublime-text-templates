@@ -5,7 +5,7 @@
 	iconFallbackText: "Warning"
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-warning-text</tabTrigger>
+	<tabTrigger>gds-njk-warning-text</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Warning Text (Nunjucks)</description>
 </snippet>

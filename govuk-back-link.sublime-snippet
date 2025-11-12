@@ -2,7 +2,7 @@
 	<content><![CDATA[
 <a href="${1:#}" class="govuk-back-link">${2:Back}</a>
 ]]></content>
-	<tabTrigger>govuk-back-link</tabTrigger>
+	<tabTrigger>gds-back-link</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Back link component</description>
 </snippet>

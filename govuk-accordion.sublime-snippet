@@ -15,7 +15,7 @@
 	</div>
 </div>
 ]]></content>
-	<tabTrigger>govuk-accordion</tabTrigger>
+	<tabTrigger>gds-accordion</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Accordion component</description>
 </snippet>

@@ -18,7 +18,7 @@
 	</div>
 </div>
 ]]></content>
-	<tabTrigger>govuk-error-summary</tabTrigger>
+	<tabTrigger>gds-error-summary</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Error summary component</description>
 </snippet>

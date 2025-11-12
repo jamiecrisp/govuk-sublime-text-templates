@@ -27,7 +27,7 @@
 	]
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-task-list</tabTrigger>
+	<tabTrigger>gds-njk-task-list</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Task List (Nunjucks)</description>
 </snippet>

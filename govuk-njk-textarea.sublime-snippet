@@ -13,7 +13,7 @@
 	}
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-textarea</tabTrigger>
+	<tabTrigger>gds-njk-textarea</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Textarea (Nunjucks)</description>
 </snippet>

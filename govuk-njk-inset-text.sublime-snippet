@@ -4,7 +4,7 @@
 	text: "${1:It can take up to 8 weeks to register a lasting power of attorney if there are no mistakes in the application.}"
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-inset-text</tabTrigger>
+	<tabTrigger>gds-njk-inset-text</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Inset Text (Nunjucks)</description>
 </snippet>

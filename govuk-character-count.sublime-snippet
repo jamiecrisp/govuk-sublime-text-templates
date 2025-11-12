@@ -15,7 +15,7 @@
 	</div>
 </div>
 ]]></content>
-	<tabTrigger>govuk-character-count</tabTrigger>
+	<tabTrigger>gds-character-count</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Character count component</description>
 </snippet>

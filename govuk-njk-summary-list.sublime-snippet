@@ -22,7 +22,7 @@
 	]
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-summary-list</tabTrigger>
+	<tabTrigger>gds-njk-summary-list</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Summary List (Nunjucks)</description>
 </snippet>

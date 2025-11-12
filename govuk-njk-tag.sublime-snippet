@@ -4,7 +4,7 @@
 	text: "${1:Completed}"
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-tag</tabTrigger>
+	<tabTrigger>gds-njk-tag</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Tag (Nunjucks)</description>
 </snippet>

@@ -19,7 +19,7 @@
 	]
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-select</tabTrigger>
+	<tabTrigger>gds-njk-select</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Select (Nunjucks)</description>
 </snippet>

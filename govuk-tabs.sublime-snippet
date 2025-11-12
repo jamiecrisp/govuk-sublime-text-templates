@@ -20,7 +20,7 @@
 	</div>
 </div>
 ]]></content>
-	<tabTrigger>govuk-tabs</tabTrigger>
+	<tabTrigger>gds-tabs</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Tabs component</description>
 </snippet>

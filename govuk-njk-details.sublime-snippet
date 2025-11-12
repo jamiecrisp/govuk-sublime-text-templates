@@ -5,7 +5,7 @@
 	text: "${2:We need to know your nationality so we can work out which elections you're entitled to vote in.}"
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-details</tabTrigger>
+	<tabTrigger>gds-njk-details</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Details (Nunjucks)</description>
 </snippet>

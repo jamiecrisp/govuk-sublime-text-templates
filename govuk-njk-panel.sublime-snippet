@@ -5,7 +5,7 @@
 	html: "${2:Your reference number}<br><strong>${3:HDJ2123F}</strong>"
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-panel</tabTrigger>
+	<tabTrigger>gds-njk-panel</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Panel (Nunjucks)</description>
 </snippet>

@@ -4,7 +4,7 @@
 	homepageUrl: "${1:#}"
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-header</tabTrigger>
+	<tabTrigger>gds-njk-header</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Header (Nunjucks)</description>
 </snippet>

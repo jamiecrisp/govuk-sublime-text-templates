@@ -3,8 +3,8 @@
 A complete collection of Sublime Text snippets for all GOV.UK Design System components.
 
 This package includes **two versions** of snippets:
-- **HTML snippets** (`govuk-*`) - Plain HTML markup (36 snippets)
-- **Nunjucks snippets** (`govuk-njk-*`) - Nunjucks macro templates (35 snippets)
+- **HTML snippets** (`gds-*`) - Plain HTML markup (36 snippets)
+- **Nunjucks snippets** (`gds-njk-*`) - Nunjucks macro templates (35 snippets)
 
 ## Installation
 
@@ -21,86 +21,86 @@ Type the trigger keyword and press `Tab` to expand the snippet. Use `Tab` to nav
 
 ### Choosing Between HTML and Nunjucks
 
-- **Use Nunjucks snippets** (`govuk-njk-*`) if you're building a GOV.UK service with Node.js and the GOV.UK Frontend Nunjucks macros
-- **Use HTML snippets** (`govuk-*`) if you're working with plain HTML or another templating system
+- **Use Nunjucks snippets** (`gds-njk-*`) if you're building a GOV.UK service with Node.js and the GOV.UK Frontend Nunjucks macros
+- **Use HTML snippets** (`gds-*`) if you're working with plain HTML or another templating system
 
 ### Examples
 
 **Nunjucks:**
 ```
-govuk-njk-button → {% from "govuk/components/button/macro.njk" import govukButton %}...
+gds-njk-button → {{ govukButton({ text: "Save and continue" }) }}
 ```
 
 **HTML:**
 ```
-govuk-button → <button type="submit" class="govuk-button"...
+gds-button → <button type="submit" class="govuk-button"...
 ```
 
 ## Available Snippets
 
-All components are available in both HTML and Nunjucks formats. Add `-njk-` for Nunjucks versions (e.g., `govuk-njk-button`).
+All components are available in both HTML and Nunjucks formats. Add `-njk-` for Nunjucks versions (e.g., `gds-njk-button`).
 
 ### Navigation Components
-- `govuk-back-link` / `govuk-njk-back-link` - Back link component
-- `govuk-breadcrumbs` / `govuk-njk-breadcrumbs` - Breadcrumbs navigation
-- `govuk-skip-link` / `govuk-njk-skip-link` - Skip to main content link
-- `govuk-pagination` / `govuk-njk-pagination` - Pagination controls
+- `gds-back-link` / `gds-njk-back-link` - Back link component
+- `gds-breadcrumbs` / `gds-njk-breadcrumbs` - Breadcrumbs navigation
+- `gds-skip-link` / `gds-njk-skip-link` - Skip to main content link
+- `gds-pagination` / `gds-njk-pagination` - Pagination controls
 
 ### Layout Components
-- `govuk-header` / `govuk-njk-header` - GOV.UK header with logo
-- `govuk-footer` / `govuk-njk-footer` - GOV.UK footer
-- `govuk-accordion` / `govuk-njk-accordion` - Collapsible accordion sections
-- `govuk-tabs` / `govuk-njk-tabs` - Tabbed content interface
+- `gds-header` / `gds-njk-header` - GOV.UK header with logo
+- `gds-footer` / `gds-njk-footer` - GOV.UK footer
+- `gds-accordion` / `gds-njk-accordion` - Collapsible accordion sections
+- `gds-tabs` / `gds-njk-tabs` - Tabbed content interface
 
 ### Form Components
-- `govuk-text-input` / `govuk-njk-input` - Text input field
-- `govuk-textarea` / `govuk-njk-textarea` - Multi-line text area
-- `govuk-select` / `govuk-njk-select` - Dropdown select menu
-- `govuk-radios` / `govuk-njk-radios` - Radio button group
-- `govuk-checkboxes` / `govuk-njk-checkboxes` - Checkbox group
-- `govuk-date-input` / `govuk-njk-date-input` - Date input (day/month/year)
-- `govuk-file-upload` / `govuk-njk-file-upload` - File upload input
-- `govuk-password-input` / `govuk-njk-password-input` - Password input with show/hide toggle
-- `govuk-character-count` / `govuk-njk-character-count` - Textarea with character counter
-- `govuk-fieldset` / `govuk-njk-fieldset` - Form fieldset wrapper
+- `gds-text-input` / `gds-njk-input` - Text input field
+- `gds-textarea` / `gds-njk-textarea` - Multi-line text area
+- `gds-select` / `gds-njk-select` - Dropdown select menu
+- `gds-radios` / `gds-njk-radios` - Radio button group
+- `gds-checkboxes` / `gds-njk-checkboxes` - Checkbox group
+- `gds-date-input` / `gds-njk-date-input` - Date input (day/month/year)
+- `gds-file-upload` / `gds-njk-file-upload` - File upload input
+- `gds-password-input` / `gds-njk-password-input` - Password input with show/hide toggle
+- `gds-character-count` / `gds-njk-character-count` - Textarea with character counter
+- `gds-fieldset` / `gds-njk-fieldset` - Form fieldset wrapper
 
 ### Button Components
-- `govuk-button` / `govuk-njk-button` - Default button
-- `govuk-button-secondary` / `govuk-njk-button-secondary` - Secondary button
-- `govuk-button-warning` / `govuk-njk-button-warning` - Warning button
-- `govuk-button-start` / `govuk-njk-button-start` - Start button with arrow icon
-- `govuk-button-group` - Button group container (HTML only)
+- `gds-button` / `gds-njk-button` - Default button
+- `gds-button-secondary` / `gds-njk-button-secondary` - Secondary button
+- `gds-button-warning` / `gds-njk-button-warning` - Warning button
+- `gds-button-start` / `gds-njk-button-start` - Start button with arrow icon
+- `gds-button-group` - Button group container (HTML only)
 
 ### Information Components
-- `govuk-inset-text` / `govuk-njk-inset-text` - Highlighted inset text
-- `govuk-warning-text` / `govuk-njk-warning-text` - Warning message with icon
-- `govuk-details` / `govuk-njk-details` - Expandable details/summary
-- `govuk-notification-banner` / `govuk-njk-notification-banner` - Notification banner
-- `govuk-panel` / `govuk-njk-panel` - Confirmation panel
-- `govuk-tag` / `govuk-njk-tag` - Status tag/label
-- `govuk-summary-list` / `govuk-njk-summary-list` - Key-value summary list
-- `govuk-table` / `govuk-njk-table` - Data table
-- `govuk-task-list` / `govuk-njk-task-list` - Task list with status
+- `gds-inset-text` / `gds-njk-inset-text` - Highlighted inset text
+- `gds-warning-text` / `gds-njk-warning-text` - Warning message with icon
+- `gds-details` / `gds-njk-details` - Expandable details/summary
+- `gds-notification-banner` / `gds-njk-notification-banner` - Notification banner
+- `gds-panel` / `gds-njk-panel` - Confirmation panel
+- `gds-tag` / `gds-njk-tag` - Status tag/label
+- `gds-summary-list` / `gds-njk-summary-list` - Key-value summary list
+- `gds-table` / `gds-njk-table` - Data table
+- `gds-task-list` / `gds-njk-task-list` - Task list with status
 
 ### Error Handling
-- `govuk-error-message` / `govuk-njk-error-message` - Inline error message
-- `govuk-error-summary` / `govuk-njk-error-summary` - Error summary at top of page
+- `gds-error-message` / `gds-njk-error-message` - Inline error message
+- `gds-error-summary` / `gds-njk-error-summary` - Error summary at top of page
 
 ### Utility Components
-- `govuk-phase-banner` / `govuk-njk-phase-banner` - Alpha/Beta phase banner
-- `govuk-cookie-banner` / `govuk-njk-cookie-banner` - Cookie consent banner
+- `gds-phase-banner` / `gds-njk-phase-banner` - Alpha/Beta phase banner
+- `gds-cookie-banner` / `gds-njk-cookie-banner` - Cookie consent banner
 
 ## Example Usage
 
 ### HTML Snippets
-1. Type `govuk-button` and press `Tab`
+1. Type `gds-button` and press `Tab`
 2. The button HTML will be inserted with placeholders
 3. Type your button text and press `Tab` to move to the next placeholder
 4. Continue tabbing through all placeholders to customize the component
 
 ### Nunjucks Snippets
-1. Type `govuk-njk-button` and press `Tab`
-2. The Nunjucks macro import and call will be inserted
+1. Type `gds-njk-button` and press `Tab`
+2. The Nunjucks macro call will be inserted
 3. Tab through placeholders to customize the button text and options
 4. The macro automatically handles accessibility and proper markup
 

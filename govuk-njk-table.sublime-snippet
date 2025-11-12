@@ -20,7 +20,7 @@
 	]
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-table</tabTrigger>
+	<tabTrigger>gds-njk-table</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Table (Nunjucks)</description>
 </snippet>

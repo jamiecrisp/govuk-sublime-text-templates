@@ -20,7 +20,7 @@
 	</div>
 </footer>
 ]]></content>
-	<tabTrigger>govuk-footer</tabTrigger>
+	<tabTrigger>gds-footer</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Footer component</description>
 </snippet>

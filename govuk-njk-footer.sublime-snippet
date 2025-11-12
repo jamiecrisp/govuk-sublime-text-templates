@@ -2,7 +2,7 @@
 	<content><![CDATA[
 {{ govukFooter({}) }}
 ]]></content>
-	<tabTrigger>govuk-njk-footer</tabTrigger>
+	<tabTrigger>gds-njk-footer</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Footer (Nunjucks)</description>
 </snippet>

@@ -7,7 +7,7 @@
 	</svg>
 </a>
 ]]></content>
-	<tabTrigger>govuk-button-start</tabTrigger>
+	<tabTrigger>gds-button-start</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Start button</description>
 </snippet>

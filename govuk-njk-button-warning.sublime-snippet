@@ -5,7 +5,7 @@
 	classes: "govuk-button--warning"
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-button-warning</tabTrigger>
+	<tabTrigger>gds-njk-button-warning</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Warning Button (Nunjucks)</description>
 </snippet>

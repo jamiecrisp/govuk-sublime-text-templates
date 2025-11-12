@@ -5,7 +5,7 @@
 	classes: "govuk-button--secondary"
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-button-secondary</tabTrigger>
+	<tabTrigger>gds-njk-button-secondary</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Secondary Button (Nunjucks)</description>
 </snippet>

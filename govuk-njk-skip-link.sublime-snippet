@@ -5,7 +5,7 @@
 	href: "${2:#main-content}"
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-skip-link</tabTrigger>
+	<tabTrigger>gds-njk-skip-link</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Skip Link (Nunjucks)</description>
 </snippet>

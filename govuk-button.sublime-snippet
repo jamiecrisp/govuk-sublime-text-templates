@@ -4,7 +4,7 @@
 	${2:Save and continue}
 </button>
 ]]></content>
-	<tabTrigger>govuk-button</tabTrigger>
+	<tabTrigger>gds-button</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Button component</description>
 </snippet>

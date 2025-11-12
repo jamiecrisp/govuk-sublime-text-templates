@@ -27,7 +27,7 @@
 	</fieldset>
 </div>
 ]]></content>
-	<tabTrigger>govuk-checkboxes</tabTrigger>
+	<tabTrigger>gds-checkboxes</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Checkboxes component</description>
 </snippet>

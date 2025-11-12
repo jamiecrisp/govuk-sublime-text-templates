@@ -12,7 +12,7 @@
 
 {% endcall %}
 ]]></content>
-	<tabTrigger>govuk-njk-fieldset</tabTrigger>
+	<tabTrigger>gds-njk-fieldset</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Fieldset (Nunjucks)</description>
 </snippet>

@@ -4,7 +4,7 @@
 	${2:Secondary button}
 </button>
 ]]></content>
-	<tabTrigger>govuk-button-secondary</tabTrigger>
+	<tabTrigger>gds-button-secondary</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Secondary button</description>
 </snippet>

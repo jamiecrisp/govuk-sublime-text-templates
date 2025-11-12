@@ -4,7 +4,7 @@
 	${2:Completed}
 </strong>
 ]]></content>
-	<tabTrigger>govuk-tag</tabTrigger>
+	<tabTrigger>gds-tag</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Tag component</description>
 </snippet>

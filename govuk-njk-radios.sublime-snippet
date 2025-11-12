@@ -21,7 +21,7 @@
 	]
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-radios</tabTrigger>
+	<tabTrigger>gds-njk-radios</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Radios (Nunjucks)</description>
 </snippet>

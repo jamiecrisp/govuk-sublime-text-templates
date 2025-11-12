@@ -10,7 +10,7 @@
 	name: "${3:eventName}"
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-input</tabTrigger>
+	<tabTrigger>gds-njk-input</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Text Input (Nunjucks)</description>
 </snippet>

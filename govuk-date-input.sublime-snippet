@@ -39,7 +39,7 @@
 	</fieldset>
 </div>
 ]]></content>
-	<tabTrigger>govuk-date-input</tabTrigger>
+	<tabTrigger>gds-date-input</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Date input component</description>
 </snippet>

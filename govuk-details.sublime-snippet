@@ -11,7 +11,7 @@
 	</div>
 </details>
 ]]></content>
-	<tabTrigger>govuk-details</tabTrigger>
+	<tabTrigger>gds-details</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Details component</description>
 </snippet>

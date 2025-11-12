@@ -5,7 +5,7 @@
 	visuallyHiddenText: "Error"
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-error-message</tabTrigger>
+	<tabTrigger>gds-njk-error-message</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Error Message (Nunjucks)</description>
 </snippet>

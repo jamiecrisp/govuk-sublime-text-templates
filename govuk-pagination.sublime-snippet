@@ -34,7 +34,7 @@
 	</div>
 </nav>
 ]]></content>
-	<tabTrigger>govuk-pagination</tabTrigger>
+	<tabTrigger>gds-pagination</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Pagination component</description>
 </snippet>

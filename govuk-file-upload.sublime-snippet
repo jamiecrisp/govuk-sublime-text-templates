@@ -7,7 +7,7 @@
 	<input class="govuk-file-upload" id="${1:file-upload}" name="${3:fileUpload}" type="file">
 </div>
 ]]></content>
-	<tabTrigger>govuk-file-upload</tabTrigger>
+	<tabTrigger>gds-file-upload</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK File upload component</description>
 </snippet>

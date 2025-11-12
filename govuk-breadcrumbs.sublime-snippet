@@ -14,7 +14,7 @@
 	</ol>
 </nav>
 ]]></content>
-	<tabTrigger>govuk-breadcrumbs</tabTrigger>
+	<tabTrigger>gds-breadcrumbs</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Breadcrumbs component</description>
 </snippet>

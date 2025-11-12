@@ -25,7 +25,7 @@
 	</li>
 </ul>
 ]]></content>
-	<tabTrigger>govuk-task-list</tabTrigger>
+	<tabTrigger>gds-task-list</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Task list component</description>
 </snippet>

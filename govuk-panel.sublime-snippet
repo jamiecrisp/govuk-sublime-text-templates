@@ -9,7 +9,7 @@
 	</div>
 </div>
 ]]></content>
-	<tabTrigger>govuk-panel</tabTrigger>
+	<tabTrigger>gds-panel</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Panel component</description>
 </snippet>

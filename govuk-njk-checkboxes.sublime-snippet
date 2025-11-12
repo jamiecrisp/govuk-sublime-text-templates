@@ -24,7 +24,7 @@
 	]
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-checkboxes</tabTrigger>
+	<tabTrigger>gds-njk-checkboxes</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Checkboxes (Nunjucks)</description>
 </snippet>

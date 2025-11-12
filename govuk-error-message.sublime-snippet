@@ -4,7 +4,7 @@
 	<span class="govuk-visually-hidden">Error:</span> ${2:The date your passport was issued must be in the past}
 </p>
 ]]></content>
-	<tabTrigger>govuk-error-message</tabTrigger>
+	<tabTrigger>gds-error-message</tabTrigger>
 	<scope>text.html</scope>
 	<description>GOV.UK Error message component</description>
 </snippet>

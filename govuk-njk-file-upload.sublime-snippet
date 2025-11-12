@@ -8,7 +8,7 @@
 	}
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-file-upload</tabTrigger>
+	<tabTrigger>gds-njk-file-upload</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK File Upload (Nunjucks)</description>
 </snippet>

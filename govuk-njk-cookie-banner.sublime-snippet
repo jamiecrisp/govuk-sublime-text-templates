@@ -29,7 +29,7 @@
 	]
 }) }}
 ]]></content>
-	<tabTrigger>govuk-njk-cookie-banner</tabTrigger>
+	<tabTrigger>gds-njk-cookie-banner</tabTrigger>
 	<scope>text.html,source.nunjucks</scope>
 	<description>GOV.UK Cookie Banner (Nunjucks)</description>
 </snippet>
