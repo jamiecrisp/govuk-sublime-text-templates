@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/input/macro.njk" import govukInput %}
-
 {{ govukInput({
 	label: {
 		text: "${1:What is the name of the event?}",

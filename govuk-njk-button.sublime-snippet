@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/button/macro.njk" import govukButton %}
-
 {{ govukButton({
 	text: "${1:Save and continue}"
 }) }}

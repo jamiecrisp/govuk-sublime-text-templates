@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/details/macro.njk" import govukDetails %}
-
 {{ govukDetails({
 	summaryText: "${1:Help with nationality}",
 	text: "${2:We need to know your nationality so we can work out which elections you're entitled to vote in.}"

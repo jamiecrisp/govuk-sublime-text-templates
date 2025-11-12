@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/textarea/macro.njk" import govukTextarea %}
-
 {{ govukTextarea({
 	name: "${1:moreDetail}",
 	id: "${2:more-detail}",

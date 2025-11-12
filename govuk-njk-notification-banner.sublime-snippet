@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/notification-banner/macro.njk" import govukNotificationBanner %}
-
 {% set html %}
 	<p class="govuk-notification-banner__heading">
 		${1:You have 7 days left to send your application.}

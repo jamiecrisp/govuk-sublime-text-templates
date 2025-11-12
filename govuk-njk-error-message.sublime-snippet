@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/error-message/macro.njk" import govukErrorMessage %}
-
 {{ govukErrorMessage({
 	text: "${1:Enter your full name}",
 	visuallyHiddenText: "Error"

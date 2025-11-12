@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/tag/macro.njk" import govukTag %}
-
 {{ govukTag({
 	text: "${1:Completed}"
 }) }}

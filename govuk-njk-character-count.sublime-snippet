@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/character-count/macro.njk" import govukCharacterCount %}
-
 {{ govukCharacterCount({
 	name: "${1:withHint}",
 	id: "${2:with-hint}",

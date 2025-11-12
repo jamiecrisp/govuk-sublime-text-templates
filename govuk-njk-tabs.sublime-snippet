@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/tabs/macro.njk" import govukTabs %}
-
 {% set ${1:tab1}Html %}
 <h2 class="govuk-heading-l">${2:Tab 1}</h2>
 ${3}

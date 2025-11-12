@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/select/macro.njk" import govukSelect %}
-
 {{ govukSelect({
 	id: "${1:sort}",
 	name: "${2:sort}",

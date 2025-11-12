@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/fieldset/macro.njk" import govukFieldset %}
-
 {% call govukFieldset({
 	legend: {
 		text: "${1:What is your address?}",

@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
-
 {{ govukCheckboxes({
 	name: "${1:items}",
 	fieldset: {

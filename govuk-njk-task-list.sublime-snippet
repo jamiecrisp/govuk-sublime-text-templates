@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/task-list/macro.njk" import govukTaskList %}
-
 {{ govukTaskList({
 	idPrefix: "${1:task-list}",
 	items: [

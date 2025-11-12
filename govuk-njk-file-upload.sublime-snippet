@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/file-upload/macro.njk" import govukFileUpload %}
-
 {{ govukFileUpload({
 	id: "${1:file-upload}",
 	name: "${2:fileUpload}",

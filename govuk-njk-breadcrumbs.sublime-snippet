@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/breadcrumbs/macro.njk" import govukBreadcrumbs %}
-
 {{ govukBreadcrumbs({
 	items: [
 		{

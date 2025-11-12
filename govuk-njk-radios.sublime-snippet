@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/radios/macro.njk" import govukRadios %}
-
 {{ govukRadios({
 	name: "${1:options}",
 	fieldset: {

@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/accordion/macro.njk" import govukAccordion %}
-
 {{ govukAccordion({
 	id: "${1:accordion-default}",
 	items: [

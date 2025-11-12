@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/footer/macro.njk" import govukFooter %}
-
 {{ govukFooter({}) }}
 ]]></content>
 	<tabTrigger>govuk-njk-footer</tabTrigger>

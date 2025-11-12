@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/pagination/macro.njk" import govukPagination %}
-
 {{ govukPagination({
 	previous: {
 		href: "${1:#}"

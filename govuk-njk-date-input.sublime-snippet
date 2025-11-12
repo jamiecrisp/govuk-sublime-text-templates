@@ -1,7 +1,5 @@
 <snippet>
 	<content><![CDATA[
-{% from "govuk/components/date-input/macro.njk" import govukDateInput %}
-
 {{ govukDateInput({
 	id: "${1:date}",
 	namePrefix: "${1:date}",
