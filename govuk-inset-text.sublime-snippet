@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<div class="govuk-inset-text">
+	${1:It can take up to 8 weeks to register a lasting power of attorney if there are no mistakes in the application.}
+</div>
+]]></content>
+	<tabTrigger>govuk-inset-text</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Inset text component</description>
+</snippet>

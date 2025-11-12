@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<div class="govuk-notification-banner" role="region" aria-labelledby="govuk-notification-banner-title" data-module="govuk-notification-banner">
+	<div class="govuk-notification-banner__header">
+		<h2 class="govuk-notification-banner__title" id="govuk-notification-banner-title">
+			${1:Important}
+		</h2>
+	</div>
+	<div class="govuk-notification-banner__content">
+		<p class="govuk-notification-banner__heading">
+			${2:You have 7 days left to send your application.}
+			<a class="govuk-notification-banner__link" href="${3:#}">${4:View application}</a>.
+		</p>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>govuk-notification-banner</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Notification banner component</description>
+</snippet>

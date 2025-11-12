@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/error-message/macro.njk" import govukErrorMessage %}
+
+{{ govukErrorMessage({
+	text: "${1:Enter your full name}",
+	visuallyHiddenText: "Error"
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-error-message</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Error Message (Nunjucks)</description>
+</snippet>

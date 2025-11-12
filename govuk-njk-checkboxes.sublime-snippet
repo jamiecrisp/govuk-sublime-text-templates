@@ -1,0 +1,32 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/checkboxes/macro.njk" import govukCheckboxes %}
+
+{{ govukCheckboxes({
+	name: "${1:items}",
+	fieldset: {
+		legend: {
+			text: "${2:Question heading}",
+			isPageHeading: true,
+			classes: "govuk-fieldset__legend--l"
+		}
+	},
+	hint: {
+		text: "${3:Select all that apply}"
+	},
+	items: [
+		{
+			value: "${4:value-1}",
+			text: "${5:Option 1}"
+		},
+		{
+			value: "${6:value-2}",
+			text: "${7:Option 2}"
+		}
+	]
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-checkboxes</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Checkboxes (Nunjucks)</description>
+</snippet>

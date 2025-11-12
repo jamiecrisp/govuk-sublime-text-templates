@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/button/macro.njk" import govukButton %}
+
+{{ govukButton({
+	text: "${1:Delete account}",
+	classes: "govuk-button--warning"
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-button-warning</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Warning Button (Nunjucks)</description>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="govuk-form-group">
+	<h1 class="govuk-label-wrapper">
+		<label class="govuk-label govuk-label--l" for="${1:input-id}">
+			${2:What is the name of the event?}
+		</label>
+	</h1>
+	<input class="govuk-input" id="${1:input-id}" name="${3:inputName}" type="text">
+</div>
+]]></content>
+	<tabTrigger>govuk-text-input</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Text input component</description>
+</snippet>

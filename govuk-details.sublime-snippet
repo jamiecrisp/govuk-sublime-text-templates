@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<details class="govuk-details">
+	<summary class="govuk-details__summary">
+		<span class="govuk-details__summary-text">
+			${1:Help with nationality}
+		</span>
+	</summary>
+	<div class="govuk-details__text">
+		${2:We need to know your nationality so we can work out which elections you're entitled to vote in.}
+	</div>
+</details>
+]]></content>
+	<tabTrigger>govuk-details</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Details component</description>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/error-summary/macro.njk" import govukErrorSummary %}
+
+{{ govukErrorSummary({
+	titleText: "There is a problem",
+	errorList: [
+		{
+			text: "${1:Enter your full name}",
+			href: "${2:#}"
+		},
+		{
+			text: "${3:Enter a valid email address}",
+			href: "${4:#}"
+		}
+	]
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-error-summary</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Error Summary (Nunjucks)</description>
+</snippet>

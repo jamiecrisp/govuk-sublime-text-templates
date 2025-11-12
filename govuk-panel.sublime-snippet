@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="govuk-panel govuk-panel--confirmation">
+	<h1 class="govuk-panel__title">
+		${1:Application complete}
+	</h1>
+	<div class="govuk-panel__body">
+		${2:Your reference number}<br><strong>${3:HDJ2123F}</strong>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>govuk-panel</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Panel component</description>
+</snippet>

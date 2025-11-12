@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<div class="govuk-accordion" data-module="govuk-accordion" id="${1:accordion-default}">
+	<div class="govuk-accordion__section">
+		<div class="govuk-accordion__section-header">
+			<h2 class="govuk-accordion__section-heading">
+				<span class="govuk-accordion__section-button" id="${1:accordion-default}-heading-1">
+					${2:Section heading}
+				</span>
+			</h2>
+		</div>
+		<div id="${1:accordion-default}-content-1" class="govuk-accordion__section-content">
+			<p class="govuk-body">${3:Section content}</p>
+		</div>
+	</div>
+</div>
+]]></content>
+	<tabTrigger>govuk-accordion</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Accordion component</description>
+</snippet>

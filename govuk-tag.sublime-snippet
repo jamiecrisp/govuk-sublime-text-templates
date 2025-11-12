@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<strong class="govuk-tag${1}">
+	${2:Completed}
+</strong>
+]]></content>
+	<tabTrigger>govuk-tag</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Tag component</description>
+</snippet>

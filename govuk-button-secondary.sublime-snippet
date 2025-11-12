@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<button type="${1:submit}" class="govuk-button govuk-button--secondary" data-module="govuk-button">
+	${2:Secondary button}
+</button>
+]]></content>
+	<tabTrigger>govuk-button-secondary</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Secondary button</description>
+</snippet>

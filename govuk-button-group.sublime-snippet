@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<div class="govuk-button-group">
+	<button type="submit" class="govuk-button" data-module="govuk-button">
+		${1:Save and continue}
+	</button>
+	<button type="submit" class="govuk-button govuk-button--secondary" data-module="govuk-button">
+		${2:Save as draft}
+	</button>
+</div>
+]]></content>
+	<tabTrigger>govuk-button-group</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Button group</description>
+</snippet>

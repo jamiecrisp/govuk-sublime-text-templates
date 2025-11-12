@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/date-input/macro.njk" import govukDateInput %}
+
+{{ govukDateInput({
+	id: "${1:date}",
+	namePrefix: "${1:date}",
+	fieldset: {
+		legend: {
+			text: "${2:When was your passport issued?}",
+			isPageHeading: true,
+			classes: "govuk-fieldset__legend--l"
+		}
+	},
+	hint: {
+		text: "${3:For example, 27 3 2007}"
+	}
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-date-input</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Date Input (Nunjucks)</description>
+</snippet>

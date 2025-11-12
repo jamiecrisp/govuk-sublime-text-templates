@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<nav class="govuk-breadcrumbs" aria-label="Breadcrumb">
+	<ol class="govuk-breadcrumbs__list">
+		<li class="govuk-breadcrumbs__list-item">
+			<a class="govuk-breadcrumbs__link" href="${1:#}">${2:Home}</a>
+		</li>
+		<li class="govuk-breadcrumbs__list-item">
+			<a class="govuk-breadcrumbs__link" href="${3:#}">${4:Section}</a>
+		</li>
+		<li class="govuk-breadcrumbs__list-item">
+			<a class="govuk-breadcrumbs__link" href="${5:#}">${6:Current page}</a>
+		</li>
+	</ol>
+</nav>
+]]></content>
+	<tabTrigger>govuk-breadcrumbs</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Breadcrumbs component</description>
+</snippet>

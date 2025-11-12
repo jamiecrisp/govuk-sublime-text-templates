@@ -1,0 +1,45 @@
+<snippet>
+	<content><![CDATA[
+<div class="govuk-form-group">
+	<fieldset class="govuk-fieldset" role="group" aria-describedby="${1:date}-hint">
+		<legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+			<h1 class="govuk-fieldset__heading">
+				${2:When was your passport issued?}
+			</h1>
+		</legend>
+		<div id="${1:date}-hint" class="govuk-hint">
+			${3:For example, 27 3 2007}
+		</div>
+		<div class="govuk-date-input" id="${1:date}">
+			<div class="govuk-date-input__item">
+				<div class="govuk-form-group">
+					<label class="govuk-label govuk-date-input__label" for="${1:date}-day">
+						Day
+					</label>
+					<input class="govuk-input govuk-date-input__input govuk-input--width-2" id="${1:date}-day" name="${1:date}-day" type="text" inputmode="numeric">
+				</div>
+			</div>
+			<div class="govuk-date-input__item">
+				<div class="govuk-form-group">
+					<label class="govuk-label govuk-date-input__label" for="${1:date}-month">
+						Month
+					</label>
+					<input class="govuk-input govuk-date-input__input govuk-input--width-2" id="${1:date}-month" name="${1:date}-month" type="text" inputmode="numeric">
+				</div>
+			</div>
+			<div class="govuk-date-input__item">
+				<div class="govuk-form-group">
+					<label class="govuk-label govuk-date-input__label" for="${1:date}-year">
+						Year
+					</label>
+					<input class="govuk-input govuk-date-input__input govuk-input--width-4" id="${1:date}-year" name="${1:date}-year" type="text" inputmode="numeric">
+				</div>
+			</div>
+		</div>
+	</fieldset>
+</div>
+]]></content>
+	<tabTrigger>govuk-date-input</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Date input component</description>
+</snippet>

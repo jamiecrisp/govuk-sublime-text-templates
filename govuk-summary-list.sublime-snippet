@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+<dl class="govuk-summary-list">
+	<div class="govuk-summary-list__row">
+		<dt class="govuk-summary-list__key">
+			${1:Name}
+		</dt>
+		<dd class="govuk-summary-list__value">
+			${2:Sarah Philips}
+		</dd>
+		<dd class="govuk-summary-list__actions">
+			<a class="govuk-link" href="${3:#}">Change<span class="govuk-visually-hidden"> ${1:name}</span></a>
+		</dd>
+	</div>
+	<div class="govuk-summary-list__row">
+		<dt class="govuk-summary-list__key">
+			${4:Date of birth}
+		</dt>
+		<dd class="govuk-summary-list__value">
+			${5:5 January 1978}
+		</dd>
+		<dd class="govuk-summary-list__actions">
+			<a class="govuk-link" href="${6:#}">Change<span class="govuk-visually-hidden"> ${4:date of birth}</span></a>
+		</dd>
+	</div>
+</dl>
+]]></content>
+	<tabTrigger>govuk-summary-list</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Summary list component</description>
+</snippet>

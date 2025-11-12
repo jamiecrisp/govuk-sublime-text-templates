@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/accordion/macro.njk" import govukAccordion %}
+
+{{ govukAccordion({
+	id: "${1:accordion-default}",
+	items: [
+		{
+			heading: {
+				text: "${2:Section heading}"
+			},
+			content: {
+				html: '${3:<p class="govuk-body">Section content</p>}'
+			}
+		}
+	]
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-accordion</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Accordion (Nunjucks)</description>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<div class="govuk-phase-banner">
+	<p class="govuk-phase-banner__content">
+		<strong class="govuk-tag govuk-phase-banner__content__tag">
+			${1:Alpha}
+		</strong>
+		<span class="govuk-phase-banner__text">
+			${2:This is a new service. Help us improve it and} <a class="govuk-link" href="${3:#}">${4:give your feedback by email}</a>.
+		</span>
+	</p>
+</div>
+]]></content>
+	<tabTrigger>govuk-phase-banner</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Phase banner component</description>
+</snippet>

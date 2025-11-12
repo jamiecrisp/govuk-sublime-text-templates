@@ -1,0 +1,30 @@
+<snippet>
+	<content><![CDATA[
+<div class="govuk-form-group">
+	<fieldset class="govuk-fieldset">
+		<legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+			<h1 class="govuk-fieldset__heading">
+				${1:Where do you live?}
+			</h1>
+		</legend>
+		<div class="govuk-radios" data-module="govuk-radios">
+			<div class="govuk-radios__item">
+				<input class="govuk-radios__input" id="${2:option-1}" name="${3:options}" type="radio" value="${4:value-1}">
+				<label class="govuk-label govuk-radios__label" for="${2:option-1}">
+					${5:Option 1}
+				</label>
+			</div>
+			<div class="govuk-radios__item">
+				<input class="govuk-radios__input" id="${6:option-2}" name="${3:options}" type="radio" value="${7:value-2}">
+				<label class="govuk-label govuk-radios__label" for="${6:option-2}">
+					${8:Option 2}
+				</label>
+			</div>
+		</div>
+	</fieldset>
+</div>
+]]></content>
+	<tabTrigger>govuk-radios</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Radios component</description>
+</snippet>

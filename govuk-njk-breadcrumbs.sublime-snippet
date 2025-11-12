@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/breadcrumbs/macro.njk" import govukBreadcrumbs %}
+
+{{ govukBreadcrumbs({
+	items: [
+		{
+			text: "${1:Home}",
+			href: "${2:#}"
+		},
+		{
+			text: "${3:Section}",
+			href: "${4:#}"
+		},
+		{
+			text: "${5:Current page}",
+			href: "${6:#}"
+		}
+	]
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-breadcrumbs</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Breadcrumbs (Nunjucks)</description>
+</snippet>

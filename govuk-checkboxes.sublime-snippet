@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+<div class="govuk-form-group">
+	<fieldset class="govuk-fieldset" aria-describedby="${1:hint}">
+		<legend class="govuk-fieldset__legend govuk-fieldset__legend--l">
+			<h1 class="govuk-fieldset__heading">
+				${2:Question heading}
+			</h1>
+		</legend>
+		<div id="${1:hint}" class="govuk-hint">
+			${3:Select all that apply}
+		</div>
+		<div class="govuk-checkboxes" data-module="govuk-checkboxes">
+			<div class="govuk-checkboxes__item">
+				<input class="govuk-checkboxes__input" id="${4:item-1}" name="${5:items}" type="checkbox" value="${6:value-1}">
+				<label class="govuk-label govuk-checkboxes__label" for="${4:item-1}">
+					${7:Option 1}
+				</label>
+			</div>
+			<div class="govuk-checkboxes__item">
+				<input class="govuk-checkboxes__input" id="${8:item-2}" name="${5:items}" type="checkbox" value="${9:value-2}">
+				<label class="govuk-label govuk-checkboxes__label" for="${8:item-2}">
+					${10:Option 2}
+				</label>
+			</div>
+		</div>
+	</fieldset>
+</div>
+]]></content>
+	<tabTrigger>govuk-checkboxes</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Checkboxes component</description>
+</snippet>

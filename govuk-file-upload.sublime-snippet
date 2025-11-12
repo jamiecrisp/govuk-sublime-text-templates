@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<div class="govuk-form-group">
+	<label class="govuk-label" for="${1:file-upload}">
+		${2:Upload a file}
+	</label>
+	<input class="govuk-file-upload" id="${1:file-upload}" name="${3:fileUpload}" type="file">
+</div>
+]]></content>
+	<tabTrigger>govuk-file-upload</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK File upload component</description>
+</snippet>

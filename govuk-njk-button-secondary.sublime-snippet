@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/button/macro.njk" import govukButton %}
+
+{{ govukButton({
+	text: "${1:Find address}",
+	classes: "govuk-button--secondary"
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-button-secondary</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Secondary Button (Nunjucks)</description>
+</snippet>

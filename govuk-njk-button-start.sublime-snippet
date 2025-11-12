@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/button/macro.njk" import govukButton %}
+
+{{ govukButton({
+	text: "${1:Start now}",
+	href: "${2:#}",
+	isStartButton: true
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-button-start</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Start Button (Nunjucks)</description>
+</snippet>

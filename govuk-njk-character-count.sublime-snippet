@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+{% from "govuk/components/character-count/macro.njk" import govukCharacterCount %}
+
+{{ govukCharacterCount({
+	name: "${1:withHint}",
+	id: "${2:with-hint}",
+	maxlength: ${3:200},
+	label: {
+		text: "${4:Can you provide more detail?}",
+		classes: "govuk-label--l",
+		isPageHeading: true
+	},
+	hint: {
+		text: "${5:Do not include personal or financial information}"
+	}
+}) }}
+]]></content>
+	<tabTrigger>govuk-njk-character-count</tabTrigger>
+	<scope>text.html,source.nunjucks</scope>
+	<description>GOV.UK Character Count (Nunjucks)</description>
+</snippet>

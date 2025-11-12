@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+<div class="govuk-form-group">
+	<label class="govuk-label" for="${1:sort}">
+		${2:Sort by}
+	</label>
+	<select class="govuk-select" id="${1:sort}" name="${3:sort}">
+		<option value="${4:value-1}">${5:Option 1}</option>
+		<option value="${6:value-2}" selected>${7:Option 2}</option>
+		<option value="${8:value-3}">${9:Option 3}</option>
+	</select>
+</div>
+]]></content>
+	<tabTrigger>govuk-select</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Select component</description>
+</snippet>

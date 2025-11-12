@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<div class="govuk-form-group">
+	<h1 class="govuk-label-wrapper">
+		<label class="govuk-label govuk-label--l" for="${1:more-detail}">
+			${2:Can you provide more detail?}
+		</label>
+	</h1>
+	<div id="${1:more-detail}-hint" class="govuk-hint">
+		${3:Do not include personal or financial information}
+	</div>
+	<textarea class="govuk-textarea" id="${1:more-detail}" name="${4:moreDetail}" rows="5" aria-describedby="${1:more-detail}-hint"></textarea>
+</div>
+]]></content>
+	<tabTrigger>govuk-textarea</tabTrigger>
+	<scope>text.html</scope>
+	<description>GOV.UK Textarea component</description>
+</snippet>
